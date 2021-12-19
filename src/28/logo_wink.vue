@@ -1,0 +1,20 @@
+<template>
+  <svg
+    fill="none"
+    height="28"
+    viewBox="0 0 28 28"
+    width="28"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="m11.9975 4-5.39752 5.39752 4.56852 4.56248-4.56852 4.5625 5.39752 5.3975 9.96-9.96z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'LogoWink',
+})
+</script>

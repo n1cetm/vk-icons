@@ -1,0 +1,11 @@
+<template>
+  <svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 8a4 4 0 11-8 0 4 4 0 018 0z" fill="currentColor" />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'New',
+})
+</script>

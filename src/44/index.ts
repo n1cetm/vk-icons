@@ -1,0 +1,6 @@
+export { default as CoinsOutline } from './coins_outline.vue'
+export { default as GiftOutline } from './gift_outline.vue'
+export { default as LogoVk } from './logo_vk.vue'
+export { default as MusicOutline } from './music_outline.vue'
+export { default as SmileOutline } from './smile_outline.vue'
+export { default as Spinner } from './spinner.vue'

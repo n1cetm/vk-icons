@@ -1,0 +1,16 @@
+<template>
+  <svg fill="none" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+    <path
+      clip-rule="evenodd"
+      d="M14.308 10.422c.163-.325-.198-.642-.54-.52a6 6 0 01-7.67-7.67c.122-.342-.195-.703-.52-.54a6.5 6.5 0 108.73 8.73z"
+      fill="currentColor"
+      fill-rule="evenodd"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Moon',
+})
+</script>

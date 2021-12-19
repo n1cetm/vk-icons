@@ -1,0 +1,142 @@
+{
+	"name": "@n1cetm/vk-icons",
+	"version": "1.138.0",
+	"description": "",
+	"keywords": [
+		"icon",
+		"vue",
+		"vk",
+		"miniapp",
+		"n1cetm"
+	],
+	"files": [
+		"dist/*"
+	],
+	"license": "MIT",
+	"exports": {
+		".": {
+			"require": "./dist/index.js",
+			"import": "./dist/index.mjs"
+		},
+		"./12": {
+			"require": "./dist/12/index.js",
+			"import": "./dist/12/index.mjs"
+		},
+		"./16": {
+			"require": "./dist/16/index.js",
+			"import": "./dist/16/index.mjs"
+		},
+		"./20": {
+			"require": "./dist/20/index.js",
+			"import": "./dist/20/index.mjs"
+		},
+		"./24": {
+			"require": "./dist/24/index.js",
+			"import": "./dist/24/index.mjs"
+		},
+		"./28": {
+			"require": "./dist/28/index.js",
+			"import": "./dist/28/index.mjs"
+		},
+		"./32": {
+			"require": "./dist/32/index.js",
+			"import": "./dist/32/index.mjs"
+		},
+		"./34": {
+			"require": "./dist/34/index.js",
+			"import": "./dist/34/index.mjs"
+		},
+		"./36": {
+			"require": "./dist/36/index.js",
+			"import": "./dist/36/index.mjs"
+		},
+		"./44": {
+			"require": "./dist/44/index.js",
+			"import": "./dist/44/index.mjs"
+		},
+		"./48": {
+			"require": "./dist/48/index.js",
+			"import": "./dist/48/index.mjs"
+		},
+		"./56": {
+			"require": "./dist/56/index.js",
+			"import": "./dist/56/index.mjs"
+		},
+		"./96": {
+			"require": "./dist/96/index.js",
+			"import": "./dist/96/index.mjs"
+		}
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist",
+	"unpkg": "dist/index.umd.js",
+	"typesVersions": {
+		"*": {
+			"12": [
+				"dist/12/index.d.ts"
+			],
+			"16": [
+				"dist/16/index.d.ts"
+			],
+			"20": [
+				"dist/20/index.d.ts"
+			],
+			"24": [
+				"dist/24/index.d.ts"
+			],
+			"28": [
+				"dist/28/index.d.ts"
+			],
+			"32": [
+				"dist/32/index.d.ts"
+			],
+			"34": [
+				"dist/34/index.d.ts"
+			],
+			"36": [
+				"dist/36/index.d.ts"
+			],
+			"44": [
+				"dist/44/index.d.ts"
+			],
+			"48": [
+				"dist/48/index.d.ts"
+			],
+			"56": [
+				"dist/56/index.d.ts"
+			],
+			"96": [
+				"dist/96/index.d.ts"
+			]
+		}
+	},
+	"sideEffects": false,
+	"scripts": {
+		"generate": "esno build/generate.ts && vue-tsc --declaration --emitDeclarationOnly",
+		"build": "esno build/generate.ts && esno build/build.ts && vue-tsc --declaration --emitDeclarationOnly"
+	},
+	"peerDependencies": {
+		"vue": "^3.2.0"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^9.0.13",
+		"@types/prettier": "^2.4.2",
+		"@vitejs/plugin-vue": "^1.10.1",
+		"@vkontakte/icons": "^1.138.0",
+		"camelcase": "^6.2.1",
+		"chalk": "^5.0.0",
+		"esbuild": "^0.14.1",
+		"esno": "^0.12.1",
+		"fast-glob": "^3.2.7",
+		"fs-extra": "^10.0.0",
+		"local-pkg": "^0.4.0",
+		"prettier": "^2.5.0",
+		"rollup": "^2.60.2",
+		"rollup-plugin-esbuild": "^4.7.2",
+		"typescript": "^4.5.2",
+		"vite": "^2.6.14",
+		"vue": "^3.2.23",
+		"vue-tsc": "^0.29.8"
+	}
+}

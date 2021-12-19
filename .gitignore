@@ -1,0 +1,4 @@
+src/*.vue
+src/*.ts
+node_modules
+dist
